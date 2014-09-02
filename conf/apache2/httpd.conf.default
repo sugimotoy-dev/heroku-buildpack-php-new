@@ -99,7 +99,7 @@ LoadModule auth_basic_module libexec/mod_auth_basic.so
 LoadModule reqtimeout_module libexec/mod_reqtimeout.so
 #LoadModule ext_filter_module libexec/mod_ext_filter.so
 #LoadModule request_module libexec/mod_request.so
-#LoadModule include_module libexec/mod_include.so
+LoadModule include_module libexec/mod_include.so
 LoadModule filter_module libexec/mod_filter.so
 #LoadModule reflector_module libexec/mod_reflector.so
 #LoadModule substitute_module libexec/mod_substitute.so
